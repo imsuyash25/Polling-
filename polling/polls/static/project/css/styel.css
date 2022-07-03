@@ -1,0 +1,96 @@
+
+.container{
+    background-color:rgb(119, 98, 98);
+    font-size:20px;
+    margin-left: 0pc;
+    block-size: 30px;
+    
+    animation: mymove 5s infinite;
+    @keyframes mymove {
+        50%{
+            background-color:white;
+            box-shadow:10px 20px 30px blue;
+        }
+    }
+}
+[type=button]{
+    color:brown;
+    border-width: 3px;
+    border-color:chocolate;
+}
+
+#nav-mobile{
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+#head{
+    font-family: Copperplate, Papyrus, fantasy;
+    
+}
+#myDIV {
+    width:1350px;
+    height: 1800px;
+    background: rgb(119, 98, 98);
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {background-color:white;}
+  }
+ #colcount {
+     float:left;
+    clear:right;
+    overflow:scroll;
+    margin:0px 10px 0px;
+    border: 1px solid black;
+    max-width: 400px;
+    height:300px;
+    animation: colcount 5s infinite;
+}
+@keyframes colcount {
+    50% {column-count: 5;}
+}
+
+
+#side_bar{
+    float:left;
+    outline:1px solid red;
+    outline-offset:5px;
+    margin-top:5px;
+    width: 150px;
+    height: 350px;
+    border: 1px solid black;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+.img_cntr{
+    
+    float:left;
+    width: 20.00%;
+    padding:5px;
+}
+
+#clone{
+    float:left;
+}
+#nav{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+}
+.navbox{
+    float:left;
+}
+.active{
+    
+    display:inline-block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+}
+
+li a:hover{
+    background-color:red;
+}
